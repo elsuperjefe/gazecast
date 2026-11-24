@@ -1,0 +1,13 @@
+{
+  "name": "gazecast",
+  "version": "1.0.0",
+  "description": "Mirror and control an Android phone from a Windows tablet with eye-gaze friendly controls (scrcpy + adb + WebCodecs).",
+  "private": true,
+  "main": "bridge/server.js",
+  "scripts": {
+    "start": "node bridge/server.js --open",
+    "demo": "node bridge/server.js --demo --open"
+  },
+  "engines": { "node": ">=18" },
+  "dependencies": {}
+}
