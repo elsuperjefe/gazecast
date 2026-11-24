@@ -1,0 +1,5 @@
+data/
+tools/
+node_modules/
+assets/png/
+*.log
